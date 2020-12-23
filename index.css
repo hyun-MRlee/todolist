@@ -80,8 +80,8 @@ input {
     margin-bottom: 25px;
 }
 
-/* ::placeholder {
-    color:white;
-} */
+::placeholder {
+    font-style: italic;
+}
 
 
