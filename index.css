@@ -1,6 +1,12 @@
 h1 {
     font-size: 6rem;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
     margin-bottom: 0;
 }
 
