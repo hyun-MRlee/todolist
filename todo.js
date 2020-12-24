@@ -1,3 +1,5 @@
+
+
 const toDoForm = document.querySelector(".js-toDoForm"),
       toDoInput = toDoForm.querySelector("input"),
       toDoList = document.querySelector(".js-toDoList");
@@ -26,7 +28,7 @@ function paintToDo(text) {
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
     const newId = toDos.length + 1;
-    delBtn.innerText = "X";
+    delBtn.innerText = ""; /* css에서 이모티콘 삽입함 button:before 란 테그임*/
     delBtn.addEventListener("click", deleteToDo);
     span.innerText = text;
     li.appendChild(delBtn);
