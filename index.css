@@ -1,6 +1,7 @@
 h1 {
     font-size: 6rem;
     padding-bottom: 10px;
+    margin-top: 100px;
     margin-bottom: 0;
 }
 
@@ -12,7 +13,7 @@ h2 {
 
 h4 {
     font-size: 25px;
-    margin: 25px;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -38,7 +39,7 @@ button:before {
 }
 
 body {
-    background-color: #2c8e50;
+    background-color: #272928;
     text-align: center;
     color:whitesmoke;
 }
@@ -49,6 +50,7 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
+    font-size: 35px;
 }
 
 .form, 
@@ -87,6 +89,7 @@ input {
     font-size: 25px;
     color: white;
     border-bottom: 2px solid white;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
