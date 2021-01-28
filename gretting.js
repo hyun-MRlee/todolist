@@ -1,8 +1,7 @@
 const form = document.querySelector(".js-form"),
       input = form.querySelector("input"),
       greeting = document.querySelector(".js-greetings");
-    //   greetingBtn = document.querySelector(".greetingEditHide");
-
+ 
 const USER_LS = "currentUser",
       SHOWING_CN = "showing";
 

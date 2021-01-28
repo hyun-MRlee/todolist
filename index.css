@@ -1,13 +1,22 @@
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     padding-bottom: 10px;
     margin-top: 100px;
     margin-bottom: 0;
 }
 
 h2 {
-    font-size: 30px;
+    all: unset;
+    font-size: 35px;
+    margin-top: 10px;
     margin-bottom: 20px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 
 h4 {
@@ -27,10 +36,10 @@ ul {
 }
 
 li {
+    /* all: unset; */
     padding-bottom: 5px;
     font-size: 25px;
     list-style-type: none;
-    /* all: unset; */
 }
 
 span {
@@ -48,7 +57,7 @@ button:active {
     transform:scale(0.95);
 }
 
-button:before {
+button:after {
     content: '\e803';
     font-family: fontello;
 }
