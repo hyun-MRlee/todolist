@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>to do List 할 일 목록</title>
-    <meta name="description" content="to do List 할 일 목록">
+    <title>할 일 목록 to do list</title>
+    <meta name="description" content="할 일 목록 to do list">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="to do List 할 일 목록">
-    <meta property="og:description" content="to do List 할 일 목록">
+    <meta property="og:title" content="할 일 목록 to do list">
+    <meta property="og:description" content="할 일 목록 to do list">
     <meta property="og:image" content="https://youtodo.netlify.app/todo.jpg">
     <meta property="og:url" content="https://youtodo.netlify.app/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,12 @@
 </head>
 
 <body>
-
+    <form action="https://www.google.com/search" method="GET">
+        <div class="search-box">
+            <input name="q" class="search-txt" type="text" placeholder="Search.....">
+            <button class="search-btn"></button>
+        </div>
+    </form>
     <div class="js-clock">
         <h1>00:00</h1>
     </div>
@@ -27,7 +32,7 @@
     </div>
 
     <form class="js-form form">
-        <h3>Welcome to our website :)</h3>
+        <h3>Have a nice day! :)</h3>
         <input type="text" placeholder="What is your name?" />
     </form>
 
@@ -40,6 +45,7 @@
     <ul class="js-toDoList">
     </ul>
     </br>
+    
     <span class="js-weather"></span>
 
     <script src="clock.js"></script>

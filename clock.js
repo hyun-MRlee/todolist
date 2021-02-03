@@ -1,6 +1,6 @@
 const clockContainer = document.querySelector(".js-clock"),
       clockTitle = clockContainer.querySelector("h1");
-const clockNal = document.querySelector(".js-day") ,     
+const clockNal = document.querySelector(".js-day"),
       clockDay = clockNal.querySelector("h2");
 
 function getTime() {
@@ -18,12 +18,12 @@ function getD() {
     const day1 = date2.getDate();
     const weekDay = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     const day2 = date2.getDay();
-    clockDay.innerText = `${year} / ${month < 10 ? `0${month}`: month} / ${day1 < 10 ? `0${day1}`: day1} / ${weekDay[day2]}`;
+    clockDay.innerText = `${year}. ${month < 10 ? `0${month}`: month}. ${day1 < 10 ? `0${day1}`: day1}. ${weekDay[day2]}`;
 }
 
 function init() {
     getTime();
-    setInterval(getTime, 60000);
+    setInterval(getTime, 30000);
     getD();
     setInterval(getD, 36000000);
 }
